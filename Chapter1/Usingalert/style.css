@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.id{
+    width: 320px;
+    height: 550px;
+    border: 2px solid blue ;
+    background-color: white;
+    padding:20px 10px 2px;
+    text-align: center;
+    box-shadow:inset 0 0 0 2px rgb(1, 244, 1); /* inset used to set it inside the border 
+    and first and second zero are for onset offset and third for blur and 4th for how
+     thick you want it */
+}
+.profile img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 5px solid rgb(51, 255, 51);
+    position: relative;
+
+}
+.logo h1{
+  font-size: 40px;
+  color: rgb(8, 8, 173);
+  margin: 0 0 10px;
+  text-shadow: 3px 0px rgb(0, 255, 0);
+}
+.logo1 h4{
+  position: relative;/* used to move text*/
+  right: -60px;
+  font-size: 40pxpx;
+  color: rgb(8, 8, 173);
+  margin: 0 0 10px;
+  border: 2px solid rgb(4, 244, 4);
+  width: 200px;
+  
+  
+}
+.name h2{
+    margin: 10px 0;
+    font-size: 25px;
+   
+}
+
+.hobbies h3{
+    font-size: 25px;
+    position: relative;
+    right: -50px;
+bottom: -30px;
+    margin-bottom: 6px;
+    text-align: left;
+}
+.hobbies ul{
+    text-align: left;
+    list-style-type: disc;
+    padding-left: 18px;
+    margin: 0;
+}
+.hobbies ul li{
+    font-size: 17px;
+     position: relative;
+     bottom: -25px;
+
+}
+.contact h3 {
+    font-size: 25px;
+ text-align: left;
+ margin-bottom: 2px;
+ margin: 0;
+ position: relative;
+ top: -110px;
+ right: -185px
+}
+.contact p{
+    text-align: left;
+    position: relative;
+    top: -117px;
+    right: -140px;
+}
