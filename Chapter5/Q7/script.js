@@ -1,0 +1,11 @@
+  var priceItem1 = 650, priceItem2 = 100;
+    var quantityItem1 = 3, quantityItem2 = 7;
+    var shipping = 100;
+    var total = (priceItem1 * quantityItem1) + (priceItem2 * quantityItem2) + shipping;
+    document.write("<h2>Q7: Shopping Cart</h2>");
+    document.write("Price of item 1 is " + priceItem1 + "<br>");
+    document.write("Quantity of item 1 is " + quantityItem1 + "<br>");
+    document.write("Price of item 2 is " + priceItem2 + "<br>");
+    document.write("Quantity of item 2 is " + quantityItem2 + "<br>");
+    document.write("Shipping Charges " + shipping + "<br>");
+    document.write("Total cost of your order is " + total + " PKR<br>");
