@@ -1,0 +1,11 @@
+var a = 2, b = 1;
+    var result = --a - --b + ++b + b--;
+    document.write("<h3>Q2 : </h3>");
+    document.write("a = " + a + " <br>");
+    document.write("b = " + b + "<br>" );
+    document.write("result = " + result +  "<br><br>");
+    document.write("Step Explanation : <br>");
+    document.write("--a; → a=1<br> " );
+    document.write("--a - --b ; → 1 - 0 = 1<br> ");
+    document.write("--a - --b + ++b ; → 1 - 0 +  1 = 2 <br> ");
+    document.write("--a - --b + ++b  + b--; → 1 - 0 + 1 + 1  = 3 <br> ");
