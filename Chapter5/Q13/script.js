@@ -1,0 +1,11 @@
+ var snack = "Chocolate Chip";
+    var currentAge = 21;
+    var maxAge = 65;
+    var perDay = 3;
+    var totalSnacks = (maxAge - currentAge) * 365 * perDay;
+    document.write("<h3>Q13: Lifetime Supply Calculator</h3>");
+    document.write("Favourite Snack: " + snack + "<br>");
+    document.write("Current Age: " + currentAge + "<br>");
+    document.write("Estimated Maximum Age: " + maxAge + "<br>");
+    document.write("Amount per day: " + perDay + "<br>");
+    document.write("You will need " + totalSnacks + " " + snack + "s to last you until the ripe old age of " + maxAge + "<br>");
